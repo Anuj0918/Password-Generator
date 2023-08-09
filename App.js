@@ -8,7 +8,7 @@ const symbol = "@#%$^&*()-+/{}|[]=";
 
 const allchars = uppercase + lowercase + number+ symbol;
 
-function createPassword() {
+function CreatePassword() {
   let password="";
    password += uppercase[Math.floor(Math.random()* uppercase.length)];
    password += lowercase[Math.floor(Math.random()* lowercase.length)];
